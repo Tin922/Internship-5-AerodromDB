@@ -76,6 +76,7 @@ create table Staff (
 	FlightID INT REFERENCES Flight(FlightID)
 );
 
+--nakon inserta
 UPDATE Users
 SET ExpirationDate = NULL
 WHERE LoyaltyCardID = FALSE;
