@@ -38,7 +38,7 @@ WHERE Tickets.FlightID = Flight.FlightID
       AND FlightCompany.FlightCompanyName = 'AirDUMP'
       AND Tickets.SeatClass = 'B'
       AND EXTRACT(YEAR FROM Tickets.DateOfFlight) = 2023;
- --not air dump added in db check
+
 
  SELECT a.AirportName, COUNT(ap.AirplaneID) AS NumberOfAirbusPlanes
 FROM Airport a
